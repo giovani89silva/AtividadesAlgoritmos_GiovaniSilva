@@ -1,0 +1,7 @@
+moedas = (int(input('Informe a quantidade de centavos: ')))
+print(f'{(moedas // 100)} Moedas de 1 real')
+print(f'{(moedas % 100) // 50} Moedas de 50 centavos')
+print(f'{((moedas % 100) % 50) // 25} Moedas de 25 centavos')
+print(f'{(((moedas % 100) % 50) % 25) // 10} Moedas de 10 centavos')
+print(f'{((((moedas % 100) % 50) % 25) % 10) // 5} Moedas de 5 centavos')
+print(f'{(((((moedas % 100) % 50) % 25) % 10) % 5) // 1} Moedas de 1 centavo')
